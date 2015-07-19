@@ -1,0 +1,4 @@
+/.iron
+/app/.meteor
+.DS_Store
+node_modules
