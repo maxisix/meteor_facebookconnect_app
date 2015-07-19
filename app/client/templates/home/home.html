@@ -5,8 +5,11 @@
 		{{#if currentUser}}
 			{{currentUser.services.facebook.name}} - <a data-logout>Logout</a>
         	{{currentUser.services.facebook.gender}} 
-			<!-- {{currentUser.profile.name}} - <a data-logout>Logout</a>
-			{{currentUser.services.facebook.gender}} -->
+			
+			<!-- {{#linkTo route='a'}} -->
+			{{> BeersList}}
+			<!-- {{/linkTo}} -->
+
 		{{else}}
 			{{#if loggingIn}}
 				Logging in...

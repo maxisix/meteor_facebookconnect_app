@@ -1,0 +1,15 @@
+<template name="BeersList">
+  <h1>Beers list</h1>
+
+  <ul>
+  	{{#each beers}}
+		<li>
+			<div>
+			{{brewery}} - {{beer_name}}
+			</div>
+		</li>
+	{{else}}
+		<li>No beers yet.</li>
+  	{{/each}}
+  </ul>
+</template>

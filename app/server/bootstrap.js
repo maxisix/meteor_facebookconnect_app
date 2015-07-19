@@ -21,3 +21,17 @@ ServiceConfiguration.configurations.insert({
 //     }
 //   }
 // );
+
+
+// Fixture data 
+if (Beers.find().count() === 0) {
+
+  for (var i = 0; i < 10; i++) {
+    Beers.insert({
+    	brewery: 'Trou du diable',
+		beer_name: 'Test post #' + i,
+		votes: 0
+    });
+  }
+
+}

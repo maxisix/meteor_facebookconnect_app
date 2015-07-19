@@ -1,4 +1,4 @@
 /.iron
-/app/.meteor
+/app/.meteor/local
 .DS_Store
 node_modules
